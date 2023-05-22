@@ -8,3 +8,15 @@ $fa-font-path: "../fonts/webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/brands";
 @import '~bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Sofia Sans Condensed', 'sans-serif';
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+  }
