@@ -108,3 +108,19 @@ main {
         max-height: 250px;
     }
 }
+
+#banner {
+    background-color: #0282f9;
+    color: white;
+    height: 100px;
+
+    img {
+        width: 40px;
+        margin-right: 1rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}

@@ -1,3 +1,27 @@
+@php
+$links = [
+    [ 'title' => 'digital comics',
+    'img' => '/images/buy-comics-digital-comics.png'
+    ],
+    [
+        'title' => 'dc merchandise',
+        'img' => '/images/buy-comics-merchandise.png'
+    ],
+    [
+        'title' => 'subscription',
+        'img' => '/images/buy-comics-subscriptions.png'
+    ],
+    [
+        'title' => 'comic shop locator',
+        'img' => '/images/buy-comics-shop-locator.png'
+    ],
+    [
+        'title' => 'dc power visa',
+        'img' => '/images/buy-dc-power-visa.svg'
+    ]
+]
+@endphp
+
 @extends('layouts.app')
 
 @section('content')
@@ -21,6 +45,22 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+    <div class="d-flex align-items-center" id="banner">
+        <div class="container ps-5 pe-5">
+            <ul class="d-flex justify-content-between text-uppercase mb-0">
+                @foreach ($links as $link)
+                <li class="d-flex align-items-center">
+                    <a href="">
+                        <img src="{{$link['img']}}" alt="">
+                        <span>{{ $link['title'] }}</span>
+                    </a>
+
+                </li>
+                @endforeach
+
+            </ul>
         </div>
     </div>
 @endsection
