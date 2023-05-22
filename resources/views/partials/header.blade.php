@@ -4,8 +4,8 @@
     </div>
     <ul class="mb-0 d-flex align-items-center gap-4 text-uppercase">
         @foreach (['characters', 'comics', 'movies', 'tv', 'games', 'videos', 'fans', 'news', 'shop'] as $link)
-        <li class="d-flex align-items-center">
-            <a class="text-decoration-none" href="">{{ $link }}</a>
+        <li class="d-flex align-items-center {{ Route::currentRouteName() == $link ? 'active' : '' }}">
+            <a class="text-decoration-none" href="{{ route('comics')}}" href="">{{ $link }}</a>
         </li>
         @endforeach
     </ul>
