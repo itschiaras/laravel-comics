@@ -124,3 +124,28 @@ main {
         color: white;
     }
 }
+
+#footer-top {
+    background-image: url(images/footer-bg.jpg);
+    height: 350px;
+    color: white;
+    overflow: hidden;
+
+
+    h4 {
+        text-transform: uppercase;
+        margin-bottom: 0;
+        max-width: 100px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(144, 143, 143);
+    }
+    .img-container {
+        height: 350px;
+        background-image: url(images/dc-logo-bg.png);
+        background-size: cover;
+        background-position: center;
+    }
+}
