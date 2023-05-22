@@ -10,32 +10,3 @@
         @endforeach
     </ul>
 </header>
-
-<style lang="scss" scoped>
-    header {
-        height: 90px;
-    }
-    img {
-        width: 60px;
-    }
-    li {
-        border-bottom: 5px solid transparent;
-        height: 100%;
-
-        a {
-            font-weight: 600;
-            color: black;
-            font-size: 1.2rem;
-        }
-
-        a:hover {
-            color: #0282f9;
-        }
-
-        &:hover {
-
-           border-bottom: 5px solid #0282f9 ;
-
-        }
-    }
-    </style>

@@ -15,32 +15,3 @@
 
 </div>
 
-<style lang="scss" scoped>
-    #footer-bottom {
-        height: 80px;
-        background-color: #303030;
-
-    }
-
-    button {
-        background-color: transparent;
-        color: white;
-        border-color: #0282f9;
-        padding: .4rem;
-        font-weight: 600;
-    }
-
-    ul {
-        margin-bottom: 0;
-    }
-
-    ul a {
-        text-decoration: none;
-        color: #0282f9;
-        font-weight: 700;
-    }
-
-    img {
-        width: 40px;
-    }
-</style>

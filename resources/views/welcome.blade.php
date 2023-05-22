@@ -23,34 +23,4 @@
 
         </div>
     </div>
-
-    <style lang="scss" scoped>
-        .jumbo {
-            width: 100%;
-            height: 400px;
-            background-image: url(images/jumbotron.jpg);
-            background-size: cover;
-            position: relative;
-        }
-
-        button {
-            background-color: #0282f9;
-            color: white;
-            font-weight: 700;
-            padding: .5rem 3rem;
-            margin-bottom: 1rem;
-        }
-
-        .cSeries {
-            position: absolute;
-            bottom: -20px;
-            margin-bottom: 0;
-            left: 100px;
-            font-size: 1.5rem;
-        }
-
-        img {
-            max-height: 250px;
-        }
-    </style>
 @endsection
